@@ -6,7 +6,6 @@ public class ShoppingCart {
         String custName = "Hakim Smith";
         String firstName;
         int spaceIdx;
-
         // Get the index of the space character (" ") in custName.
 
 
