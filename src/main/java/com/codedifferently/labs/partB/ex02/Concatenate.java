@@ -5,6 +5,14 @@ public class Concatenate {
             String response = "";
         /* Your code goes here*/
 
+        //first and last name variables
+        String firstName = "Abe";
+        String lastName = "Lincoln";
+
+        String fullName = firstName + " " + lastName;
+
+        response = fullName;
+
         return response;
     }
 

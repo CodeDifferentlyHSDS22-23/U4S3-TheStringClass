@@ -6,6 +6,13 @@ public class Indexing {
         String myStr = "Hello planet earth, you are a great planet.";
         /* Your code goes here*/
 
+        //find the index of the first 'e'
+        int firstEIndex = myStr.indexOf("e");
+
+        //find the index of 'e' after the first one
+        int nextEIndex = myStr.indexOf("e", firstEIndex + 1);
+
+        response = String.valueOf(nextEIndex);
         return response;
     }
 

@@ -6,6 +6,10 @@ public class Replace {
         String sentence = "Using String replace to replace character";
         /** Your code goes here*/
 
+        // Replace all lowercase 'r' with uppercase 'R'
+        sentence = sentence.replace("r", "R");
+
+        response = sentence;
 
         return response;
     }
