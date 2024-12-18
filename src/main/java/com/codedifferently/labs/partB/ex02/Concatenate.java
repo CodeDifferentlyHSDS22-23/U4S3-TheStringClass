@@ -2,8 +2,10 @@ package com.codedifferently.labs.partB.ex02;
 
 public class Concatenate {
     public static String concatenateStrings() {
-            String response = "";
+        String response = "Abe" + " " + "Lincoln";
         /* Your code goes here*/
+
+
 
         return response;
     }

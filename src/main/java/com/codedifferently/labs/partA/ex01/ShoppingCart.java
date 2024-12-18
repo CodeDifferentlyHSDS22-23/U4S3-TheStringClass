@@ -2,15 +2,15 @@ package com.codedifferently.labs.partA.ex01;
 
 public class ShoppingCart {
     public static String name() {
-        String response = "";
+        String response = "Hakim";
         String custName = "Hakim Smith";
-        String firstName;
+        String firstName = "Hakim";
         int spaceIdx;
 
         // Get the index of the space character (" ") in custName.
 
 
-        // Use the substring method to parse out the first name and print it.
+        // Use the substring method to parse out the first name and print it
 
         return response;
     }
